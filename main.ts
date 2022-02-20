@@ -5,7 +5,9 @@ input.onPinPressed(TouchPin.P0, function () {
     music.playTone(330, music.beat(BeatFraction.Whole))
 })
 input.onButtonPressed(Button.A, function () {
-    basic.showString("Debut")
+    basic.showString("BT-D")
+    basic.pause(100)
+    basic.clearScreen()
 })
 radio.setGroup(33)
 music.setBuiltInSpeakerEnabled(true)
